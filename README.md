@@ -27,12 +27,19 @@ The goal of the project is to demonstrate skills in **React, state management, r
 ---
 
 ## 📂 Project Structure  
+```plaintext
 src/
-├── components/ # Reusable UI components
-├── pages/ # Application pages (Home, Product, Cart, Checkout)
-├── context/ # State management (if used)
-├── assets/ # Images, icons
-└── App.jsx # Main app entry
+ ├── assets/          # Зображення, іконки, шрифти
+ ├── components/      # Повторно використовувані UI-компоненти (Button, Navbar, ProductCard)
+ ├── context/         # Глобальний state (Context API / Zustand / Redux)
+ ├── hooks/           # Кастомні React hooks (useCart, useAuth)
+ ├── pages/           # Сторінки (Home, Product, Cart, Checkout, NotFound)
+ ├── services/        # API-запити (axios/fetch), робота з backend
+ ├── styles/          # Глобальні стилі, Tailwind config або SCSS
+ ├── utils/           # Хелпери та утиліти (форматування цін, валідація)
+ ├── App.jsx          # Основний компонент додатку
+ ├── index.js         # Точка входу в React
+ └── router.js        # Налаштування React Router
 
 ## ▶️ Installation & Usage  
 ```bash

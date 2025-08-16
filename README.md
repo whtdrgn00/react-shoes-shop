@@ -1,12 +1,49 @@
-# React + Vite
+# 🛒 Online Shop — Frontend  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview  
+This project is a **front-end of an online shop built with React**.  
+It provides a modern and responsive user interface for browsing products, managing a shopping cart, and placing orders.  
 
-Currently, two official plugins are available:
+The goal of the project is to demonstrate skills in **React, state management, routing, and API integration**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features  
+- Product catalog with search and filtering  
+- Product details page  
+- Shopping cart (add/remove items, quantity update)  
+- Checkout page (form validation included)  
+- Responsive design (desktop & mobile)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+- **React** — UI library  
+- **React Router** — navigation  
+- **Context API / Zustand / Redux** — state management  
+- **Tailwind CSS / MUI / Chakra UI** — styling  
+- **Axios / Fetch API** — API requests  
+
+---
+
+## 📂 Project Structure  
+src/
+├── components/ # Reusable UI components
+├── pages/ # Application pages (Home, Product, Cart, Checkout)
+├── context/ # State management (if used)
+├── assets/ # Images, icons
+└── App.jsx # Main app entry
+
+## ▶️ Installation & Usage  
+```bash
+# Clone repo
+git clone https://github.com/username/react-shoes-shop.git
+
+# Go to project folder
+cd react-shoes-shop
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm start
